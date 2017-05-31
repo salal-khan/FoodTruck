@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "777430099402",
+    "firebase_url": "https://food-truck-29835.firebaseio.com",
+    "project_id": "food-truck-29835",
+    "storage_bucket": "food-truck-29835.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777430099402:android:f9bb10699e3021ca",
+        "android_client_info": {
+          "package_name": "com.codiansoft.foodtruck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777430099402-loesc92re3nmoj3l6te32rct7isbbtv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnXbyP7SCUAELMR0nGn5ACXmkHmFEr2X4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

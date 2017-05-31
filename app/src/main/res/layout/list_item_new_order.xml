@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/comments_colr_bg"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:id="@+id/list_item_genre_arrow"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+
+            android:src="@drawable/plus" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/totalcost"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:text="Genre" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/time_bg"
+        android:gravity="center"
+        android:textColor="@color/map_outline"
+        android:layout_weight="1"
+        tools:text="Genre" />
+
+    <Button
+        android:id="@+id/btn_accept"
+        android:layout_width="0dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Accept"
+        android:layout_weight="0.75"
+        android:background="@drawable/btn_login" />
+
+    <Button
+        android:id="@+id/btn_reject"
+        android:layout_width="0dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="Reject"
+        android:textColor="@android:color/white"
+        android:layout_weight="0.75"
+        android:background="@color/map_outline" />
+</LinearLayout>
+

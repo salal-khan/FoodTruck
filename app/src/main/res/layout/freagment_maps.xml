@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:background="@color/green_color"
+            android:minHeight="?attr/actionBarSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:background="@drawable/hollw_light"
+                    android:drawableLeft="@drawable/search_icon"
+                    android:hint="Please enter your place"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_weight="10"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+
+                    android:popupBackground="@android:color/white"
+                    android:text=""
+                    android:layout_width="match_parent">
+
+                    <requestFocus />
+                </AutoCompleteTextView>
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_weight="8"
+
+            android:padding="1dp">
+
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.codiansoft.foodtruck.MapsActivity" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

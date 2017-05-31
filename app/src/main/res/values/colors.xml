@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#32bb2d</color>
+    <color name="colorPrimaryDark">#209c1b</color>
+    <color name="colorAccent">#52d64f</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="map_outline">#ed1b24</color>
+    <color name="green_color">#32bb2d</color>
+    <color name="screen_color">#52d64f</color>
+    <color name="button_color">#23b14d</color>
+    <color name="duskYellow">#FFC107</color>
+    <color name="lightGrey">#dde2de</color>
+</resources>
